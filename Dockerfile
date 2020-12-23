@@ -11,8 +11,8 @@ RUN apt-get update -y \
     && apt-get clean
 
 #RUN pip3 install --no-cache-dir --upgrade --ignore-installed entrypoints
-RUN pip3 install --no-cache-dir \
-        loguru pysnooper
+#RUN pip3 install --no-cache-dir \
+#        loguru pysnooper
         # numpy scipy pandas 'pyarrow>=0.14.0' \
         #scikit-learn lightgbm graphviz \
         #matplotlib bokeh holoviews[recommended] hvplot \
