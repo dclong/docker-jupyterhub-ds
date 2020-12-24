@@ -13,8 +13,8 @@ RUN apt-get update -y \
 #RUN pip3 install --no-cache-dir --upgrade --ignore-installed entrypoints
 RUN pip3 install --no-cache-dir \
         loguru pysnooper \
-        numpy scipy pandas 'pyarrow>=0.14.0' \
-        scikit-learn lightgbm graphviz \
+        # numpy scipy pandas 'pyarrow>=0.14.0' \
+        # scikit-learn lightgbm graphviz \
         matplotlib bokeh holoviews[recommended] hvplot \
         tabulate \
         'JPype1>=0.7.0' sqlparse \
